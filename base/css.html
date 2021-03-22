@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>CSS | Day2Day</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="Just playing around">
+    
+    <link rel="preload" href="/assets/css/0.styles.e8fa2144.css" as="style"><link rel="preload" href="/assets/js/app.c3c63d5e.js" as="script"><link rel="preload" href="/assets/js/2.89d17b24.js" as="script"><link rel="preload" href="/assets/js/10.9ad853e0.js" as="script"><link rel="prefetch" href="/assets/js/11.76af6df3.js"><link rel="prefetch" href="/assets/js/12.1a91e991.js"><link rel="prefetch" href="/assets/js/13.b541ffe6.js"><link rel="prefetch" href="/assets/js/14.9af432e7.js"><link rel="prefetch" href="/assets/js/15.76c648d6.js"><link rel="prefetch" href="/assets/js/3.4c24c8df.js"><link rel="prefetch" href="/assets/js/4.bcc697fa.js"><link rel="prefetch" href="/assets/js/5.da5c5722.js"><link rel="prefetch" href="/assets/js/6.5dc7eb02.js"><link rel="prefetch" href="/assets/js/7.3beeb3a1.js"><link rel="prefetch" href="/assets/js/8.0f825111.js"><link rel="prefetch" href="/assets/js/9.d0fd423a.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.e8fa2144.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Day2Day</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><a href="/base/outline.html" class="sidebar-link">总纲</a></li><li><a href="/base/base.html" class="sidebar-link">日常记录</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/base/base.html#原型" class="sidebar-link">原型</a></li><li class="sidebar-sub-header"><a href="/base/base.html#继承" class="sidebar-link">继承</a></li><li class="sidebar-sub-header"><a href="/base/base.html#进制初识" class="sidebar-link">进制初识</a></li><li class="sidebar-sub-header"><a href="/base/base.html#重绘reflow和回流repaint" class="sidebar-link">重绘Reflow和回流Repaint</a></li><li class="sidebar-sub-header"><a href="/base/base.html#bfc格式化上下文" class="sidebar-link">BFC格式化上下文</a></li><li class="sidebar-sub-header"><a href="/base/base.html#express和koa的中间件原理" class="sidebar-link">Express和Koa的中间件原理</a></li><li class="sidebar-sub-header"><a href="/base/base.html#人人都会深拷贝-但是深拷贝循环引用怎么办" class="sidebar-link">人人都会深拷贝，但是深拷贝循环引用怎么办</a></li><li class="sidebar-sub-header"><a href="/base/base.html#gc-垃圾回收机制" class="sidebar-link">GC（垃圾回收机制）</a></li><li class="sidebar-sub-header"><a href="/base/base.html#闭包与gc-垃圾回收机制" class="sidebar-link">闭包与GC（垃圾回收机制）</a></li><li class="sidebar-sub-header"><a href="/base/base.html#自适应布局方案-rem-vw" class="sidebar-link">自适应布局方案（rem,vw）</a></li><li class="sidebar-sub-header"><a href="/base/base.html#flip" class="sidebar-link">FLIP</a></li><li class="sidebar-sub-header"><a href="/base/base.html#禁止字体跟随系统字体大小" class="sidebar-link">禁止字体跟随系统字体大小</a></li><li class="sidebar-sub-header"><a href="/base/base.html#软键盘处理" class="sidebar-link">软键盘处理</a></li><li class="sidebar-sub-header"><a href="/base/base.html#app和webview-交互" class="sidebar-link">app和webview 交互</a></li><li class="sidebar-sub-header"><a href="/base/base.html#微信ios端底部导航栏" class="sidebar-link">微信ios端底部导航栏</a></li><li class="sidebar-sub-header"><a href="/base/base.html#微信js-sdk-慢慢啃出来的经验" class="sidebar-link">微信js-sdk，慢慢啃出来的经验</a></li><li class="sidebar-sub-header"><a href="/base/base.html#ios中new-date的坑" class="sidebar-link">IOS中new Date的坑</a></li><li class="sidebar-sub-header"><a href="/base/base.html#获取url参数的三种方式" class="sidebar-link">获取url参数的三种方式</a></li><li class="sidebar-sub-header"><a href="/base/base.html#webview-跳转-app" class="sidebar-link">webview 跳转 app</a></li><li class="sidebar-sub-header"><a href="/base/base.html#老生常谈-事件循环-eventloop" class="sidebar-link">老生常谈，事件循环 EventLoop</a></li><li class="sidebar-sub-header"><a href="/base/base.html#讲完eventloop-再讲promise就能清楚了" class="sidebar-link">讲完EventLoop，再讲promise就能清楚了</a></li><li class="sidebar-sub-header"><a href="/base/base.html#html2canvas-坑点" class="sidebar-link">html2canvas 坑点</a></li><li class="sidebar-sub-header"><a href="/base/base.html#模块化-amd-cmd-commonjs-es6" class="sidebar-link">模块化：AMD，CMD，CommonJs，ES6</a></li><li class="sidebar-sub-header"><a href="/base/base.html#sentry-前端报错监控" class="sidebar-link">Sentry 前端报错监控</a></li><li class="sidebar-sub-header"><a href="/base/base.html#ssr-给我们带来了什么" class="sidebar-link">SSR 给我们带来了什么</a></li><li class="sidebar-sub-header"><a href="/base/base.html#函数式编程-是个人都能看懂的函数式编程" class="sidebar-link">函数式编程，是个人都能看懂的函数式编程</a></li><li class="sidebar-sub-header"><a href="/base/base.html#app切后台-我的js还执行么" class="sidebar-link">App切后台，我的JS还执行么？？？</a></li><li class="sidebar-sub-header"><a href="/base/base.html#addeventlistener-passive-优化-划重点" class="sidebar-link">addEventListener passive 优化（划重点）</a></li><li class="sidebar-sub-header"><a href="/base/base.html#啊哈-微前端-微服务-我究竟是个啥" class="sidebar-link">啊哈，微前端，微服务，我究竟是个啥？</a></li><li class="sidebar-sub-header"><a href="/base/base.html#graphql-前端后端不吵架" class="sidebar-link">GRAPHQL，前端后端不吵架</a></li><li class="sidebar-sub-header"><a href="/base/base.html#我是真的懒-单元测试写不写" class="sidebar-link">我是真的懒，单元测试写不写</a></li><li class="sidebar-sub-header"><a href="/base/base.html#pwa香的呀" class="sidebar-link">PWA香的呀！</a></li></ul></li><li><a href="/base/html.html" class="sidebar-link">HTML</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/base/html.html#那些我们不知道却又无比好用的html标签" class="sidebar-link">那些我们不知道却又无比好用的HTML标签</a></li><li class="sidebar-sub-header"><a href="/base/html.html#自定义html标签-随心造" class="sidebar-link">自定义HTML标签，随心造</a></li></ul></li><li><a href="/base/css.html" aria-current="page" class="active sidebar-link">CSS</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/base/css.html#可c-常用css样式表" class="sidebar-link">可c，常用css样式表</a></li><li class="sidebar-sub-header"><a href="/base/css.html#calc-坑点" class="sidebar-link">calc 坑点</a></li><li class="sidebar-sub-header"><a href="/base/css.html#fixed-定位失效" class="sidebar-link">fixed 定位失效</a></li><li class="sidebar-sub-header"><a href="/base/css.html#_1px-和-android文字垂直居中" class="sidebar-link">1px 和 android文字垂直居中</a></li><li class="sidebar-sub-header"><a href="/base/css.html#rem布局-px布局-我到底要选谁" class="sidebar-link">rem布局，px布局，我到底要选谁？</a></li><li class="sidebar-sub-header"><a href="/base/css.html#滚动属性-禁止滚动穿透" class="sidebar-link">滚动属性，禁止滚动穿透</a></li><li class="sidebar-sub-header"><a href="/base/css.html#全局变量编写" class="sidebar-link">全局变量编写</a></li><li class="sidebar-sub-header"><a href="/base/css.html#css-id-类名等-的优先级" class="sidebar-link">css(id,类名等)的优先级</a></li></ul></li><li><a href="/base/ts.html" class="sidebar-link">TypeScript</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/base/ts.html#tsconfig-json-详解" class="sidebar-link">tsconfig.json 详解</a></li></ul></li><li><a href="/base/react.html" class="sidebar-link">react</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/base/react.html#为什么大厂都在走react方向" class="sidebar-link">为什么大厂都在走React方向？</a></li><li class="sidebar-sub-header"><a href="/base/react.html#为什么需要this绑定" class="sidebar-link">为什么需要this绑定？</a></li></ul></li><li><a href="/base/hobby.html" class="sidebar-link">爱好</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/base/hobby.html#cpu-gpu天梯图" class="sidebar-link">CPU,GPU天梯图</a></li><li class="sidebar-sub-header"><a href="/base/hobby.html#魔方magic" class="sidebar-link">魔方magic</a></li></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="可c-常用css样式表"><a href="#可c-常用css样式表" class="header-anchor">#</a> 可c，常用css样式表</h2> <ol><li>常用</li></ol> <div class="language-less line-numbers-mode"><pre class="language-less"><code><span class="token comment">/* ------------- 样式重置 start ----------------- */</span>
+ <span class="token selector">*</span> <span class="token punctuation">{</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token property">margin</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token comment">/* 英文单词自动换行,而不是一行展示*/</span>
+  <span class="token property">word-break</span><span class="token punctuation">:</span> break<span class="token operator">-</span>all<span class="token punctuation">;</span>
+  <span class="token comment">/* 优先以宽度为盒子总宽,即 border + padding + content = width */</span>
+  <span class="token property">box-sizing</span><span class="token punctuation">:</span> border<span class="token operator">-</span>box<span class="token punctuation">;</span>
+  <span class="token comment">/* ios 上点击链接和可点击元素时,会出现一个灰色背景,重置它 */</span>
+  <span class="token property">-webkit-tap-highlight-color</span><span class="token punctuation">:</span> transparent<span class="token punctuation">;</span>
+  <span class="token comment">/* ios 开启弹性滑动 */</span>
+  <span class="token property">-webkit-overflow-scrolling</span><span class="token punctuation">:</span> touch<span class="token punctuation">;</span>
+  <span class="token comment">/* 清除滚动条 */</span>
+  <span class="token comment">/* Firefox 64 */</span>
+  <span class="token property">scrollbar-width</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+  <span class="token comment">/* IE 11 */</span>
+  <span class="token property">-ms-overflow-style</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+  <span class="token property">overflow</span><span class="token punctuation">:</span> <span class="token operator">-</span>moz<span class="token operator">-</span>scrollbars<span class="token operator">-</span>none<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* 清除滚动条 */</span>
+<span class="token selector">*::-webkit-scrollbar</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* 按钮样式重置 */</span>
+<span class="token selector">button</span> <span class="token punctuation">{</span>
+  <span class="token property">border</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+  <span class="token property">outline</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/*去掉列表默认排列*/</span>
+<span class="token selector">ul,
+ol,
+li</span> <span class="token punctuation">{</span>
+  <span class="token property">list-style</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* ------------- 样式重置 end ------------------- */</span>
+
+<span class="token comment">/* 省略号展示,可配置 line 行数 */</span>
+<span class="token selector">.ellipsis(<span class="token variable">@line</span>: 1)</span> <span class="token punctuation">{</span>
+  <span class="token property">overflow</span>          <span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>
+  <span class="token comment">/*文字超出用省略号*/</span>
+  <span class="token property">text-overflow</span>     <span class="token punctuation">:</span> ellipsis<span class="token punctuation">;</span>
+  <span class="token comment">/*盒子模型*/</span>
+  <span class="token property">display</span>           <span class="token punctuation">:</span> <span class="token operator">-</span>webkit<span class="token operator">-</span>box<span class="token punctuation">;</span>
+  <span class="token comment">/*子元素的垂直排列方式*/</span>
+  <span class="token property">-webkit-box-orient</span><span class="token punctuation">:</span> vertical<span class="token punctuation">;</span>
+  <span class="token property">-webkit-line-clamp</span><span class="token punctuation">:</span> <span class="token variable">@line</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* ------------- flex 布局  start ---------------*/</span>
+<span class="token selector">.center</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span>        <span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+  <span class="token property">align-items</span>    <span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+  <span class="token property">justify-content</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.center-between</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span>        <span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+  <span class="token property">align-items</span>    <span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+  <span class="token property">justify-content</span><span class="token punctuation">:</span> space<span class="token operator">-</span>between<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/* -------------- flex 布局  end ----------------*/</span>
+
+<span class="token comment">/* -------------- 1px线 解决方案 start-----------------*/</span>
+<span class="token selector">.bottom-1px(<span class="token variable">@color</span>: #edeef2)</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+  <span class="token property">border</span>  <span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+
+  <span class="token selector">&amp;::before</span> <span class="token punctuation">{</span>
+    <span class="token property">content</span>         <span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">;</span>
+    <span class="token property">display</span>         <span class="token punctuation">:</span> block<span class="token punctuation">;</span>
+    <span class="token property">width</span>           <span class="token punctuation">:</span> 200%<span class="token punctuation">;</span>
+    <span class="token property">height</span>          <span class="token punctuation">:</span> 2px<span class="token punctuation">;</span>
+    <span class="token property">position</span>        <span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+    <span class="token property">bottom</span>          <span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">left</span>            <span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">right</span>           <span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> <span class="token variable">@color</span><span class="token punctuation">;</span>
+    <span class="token property">transform-origin</span><span class="token punctuation">:</span> left top<span class="token punctuation">;</span>
+    <span class="token property">transform</span>       <span class="token punctuation">:</span> <span class="token function">scale</span><span class="token punctuation">(</span>0.5<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.border-1px(<span class="token variable">@color</span>: #fefefe, <span class="token variable">@radius</span>: 0px)</span> <span class="token punctuation">{</span>
+  <span class="token property">border</span>       <span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+  <span class="token property">position</span>     <span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+  <span class="token property">border-radius</span><span class="token punctuation">:</span> <span class="token variable">@radius</span><span class="token punctuation">;</span>
+
+  <span class="token selector">&amp;::after</span> <span class="token punctuation">{</span>
+    <span class="token property">content</span>         <span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">;</span>
+    <span class="token property">position</span>        <span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+    <span class="token property">top</span>             <span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">left</span>            <span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">border</span>          <span class="token punctuation">:</span> 1px solid <span class="token variable">@color</span><span class="token punctuation">;</span>
+    <span class="token property">border-radius</span>   <span class="token punctuation">:</span> <span class="token function">calc</span><span class="token punctuation">(</span><span class="token variable">@radius</span> <span class="token operator">*</span> 2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token property">box-sizing</span>      <span class="token punctuation">:</span> border<span class="token operator">-</span>box<span class="token punctuation">;</span>
+    <span class="token property">width</span>           <span class="token punctuation">:</span> 200%<span class="token punctuation">;</span>
+    <span class="token property">height</span>          <span class="token punctuation">:</span> 200%<span class="token punctuation">;</span>
+    <span class="token property">transform</span>       <span class="token punctuation">:</span> <span class="token function">scale</span><span class="token punctuation">(</span>0.5<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token property">transform-origin</span><span class="token punctuation">:</span> left top<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.top-1px(<span class="token variable">@color</span>: #edeef2)</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+  <span class="token property">border</span>  <span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+
+  <span class="token selector">&amp;::before</span> <span class="token punctuation">{</span>
+    <span class="token property">content</span>         <span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">;</span>
+    <span class="token property">display</span>         <span class="token punctuation">:</span> block<span class="token punctuation">;</span>
+    <span class="token property">width</span>           <span class="token punctuation">:</span> 200%<span class="token punctuation">;</span>
+    <span class="token property">height</span>          <span class="token punctuation">:</span> 2px<span class="token punctuation">;</span>
+    <span class="token property">position</span>        <span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+    <span class="token property">top</span>             <span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">left</span>            <span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">right</span>           <span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> <span class="token variable">@color</span><span class="token punctuation">;</span>
+    <span class="token property">transform-origin</span><span class="token punctuation">:</span> left top<span class="token punctuation">;</span>
+    <span class="token property">transform</span>       <span class="token punctuation">:</span> <span class="token function">scale</span><span class="token punctuation">(</span>0.5<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* -------------- 1px线 解决方案 end-----------------*/</span>
+
+
+<span class="token comment">/* -------------- iPhone 全面屏 底部安全距离兼容 start ------------- */</span>
+<span class="token selector">.bottom(<span class="token variable">@bottom</span>) when (<span class="token variable">@bottom</span> &gt; 0)</span> <span class="token punctuation">{</span>
+  <span class="token property">bottom</span>        <span class="token punctuation">:</span> <span class="token function">calc</span><span class="token punctuation">(</span><span class="token variable">@bottom</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">-webkit-bottom</span><span class="token punctuation">:</span> <span class="token function">calc</span><span class="token punctuation">(</span><span class="token function">constant</span><span class="token punctuation">(</span>safe<span class="token operator">-</span>area<span class="token operator">-</span>inset<span class="token operator">-</span>bottom<span class="token punctuation">)</span><span class="token operator">+</span> <span class="token variable">@bottom</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">-webkit-bottom</span><span class="token punctuation">:</span> <span class="token function">calc</span><span class="token punctuation">(</span><span class="token function">env</span><span class="token punctuation">(</span>safe<span class="token operator">-</span>area<span class="token operator">-</span>inset<span class="token operator">-</span>bottom<span class="token punctuation">)</span><span class="token operator">+</span> <span class="token variable">@bottom</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.bottom(<span class="token variable">@bottom</span>) when (<span class="token variable">@bottom</span> =0)</span> <span class="token punctuation">{</span>
+  <span class="token property">bottom</span>        <span class="token punctuation">:</span> <span class="token variable">@bottom</span><span class="token punctuation">;</span>
+  <span class="token property">-webkit-bottom</span><span class="token punctuation">:</span> <span class="token function">calc</span><span class="token punctuation">(</span><span class="token function">constant</span><span class="token punctuation">(</span>safe<span class="token operator">-</span>area<span class="token operator">-</span>inset<span class="token operator">-</span>bottom<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">-webkit-bottom</span><span class="token punctuation">:</span> <span class="token function">calc</span><span class="token punctuation">(</span><span class="token function">env</span><span class="token punctuation">(</span>safe<span class="token operator">-</span>area<span class="token operator">-</span>inset<span class="token operator">-</span>bottom<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/* -------------- iPhone 全面屏 底部安全距离兼容 end ------------- */</span>
+
+<span class="token comment">/* -------------- 浮动 start ---------------- */</span>
+<span class="token selector">.fl</span> <span class="token punctuation">{</span>
+  <span class="token property">float</span><span class="token punctuation">:</span> left<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.fr</span> <span class="token punctuation">{</span>
+  <span class="token property">float</span><span class="token punctuation">:</span> right<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.clearfix</span> <span class="token punctuation">{</span>
+  <span class="token property">zoom</span><span class="token punctuation">:</span> 1<span class="token punctuation">;</span>
+
+  <span class="token selector">&amp;::after</span> <span class="token punctuation">{</span>
+    <span class="token property">content</span>   <span class="token punctuation">:</span> <span class="token string">''</span><span class="token punctuation">;</span>
+    <span class="token property">display</span>   <span class="token punctuation">:</span> block<span class="token punctuation">;</span>
+    <span class="token comment">/*让生成的元素以块级元素显示，占满剩余空间*/</span>
+    <span class="token property">height</span>    <span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token comment">/*避免生成的内容破坏原有布局高度*/</span>
+    <span class="token property">clear</span>     <span class="token punctuation">:</span> both<span class="token punctuation">;</span>
+    <span class="token comment">/*清除浮动*/</span>
+    <span class="token property">visibility</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>
+    <span class="token comment">/*让生成的内容不可见*/</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* -------------- 浮动 end ---------------- */</span>
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br><span class="line-number">72</span><br><span class="line-number">73</span><br><span class="line-number">74</span><br><span class="line-number">75</span><br><span class="line-number">76</span><br><span class="line-number">77</span><br><span class="line-number">78</span><br><span class="line-number">79</span><br><span class="line-number">80</span><br><span class="line-number">81</span><br><span class="line-number">82</span><br><span class="line-number">83</span><br><span class="line-number">84</span><br><span class="line-number">85</span><br><span class="line-number">86</span><br><span class="line-number">87</span><br><span class="line-number">88</span><br><span class="line-number">89</span><br><span class="line-number">90</span><br><span class="line-number">91</span><br><span class="line-number">92</span><br><span class="line-number">93</span><br><span class="line-number">94</span><br><span class="line-number">95</span><br><span class="line-number">96</span><br><span class="line-number">97</span><br><span class="line-number">98</span><br><span class="line-number">99</span><br><span class="line-number">100</span><br><span class="line-number">101</span><br><span class="line-number">102</span><br><span class="line-number">103</span><br><span class="line-number">104</span><br><span class="line-number">105</span><br><span class="line-number">106</span><br><span class="line-number">107</span><br><span class="line-number">108</span><br><span class="line-number">109</span><br><span class="line-number">110</span><br><span class="line-number">111</span><br><span class="line-number">112</span><br><span class="line-number">113</span><br><span class="line-number">114</span><br><span class="line-number">115</span><br><span class="line-number">116</span><br><span class="line-number">117</span><br><span class="line-number">118</span><br><span class="line-number">119</span><br><span class="line-number">120</span><br><span class="line-number">121</span><br><span class="line-number">122</span><br><span class="line-number">123</span><br><span class="line-number">124</span><br><span class="line-number">125</span><br><span class="line-number">126</span><br><span class="line-number">127</span><br><span class="line-number">128</span><br><span class="line-number">129</span><br><span class="line-number">130</span><br><span class="line-number">131</span><br><span class="line-number">132</span><br><span class="line-number">133</span><br><span class="line-number">134</span><br><span class="line-number">135</span><br><span class="line-number">136</span><br><span class="line-number">137</span><br><span class="line-number">138</span><br><span class="line-number">139</span><br><span class="line-number">140</span><br><span class="line-number">141</span><br><span class="line-number">142</span><br><span class="line-number">143</span><br><span class="line-number">144</span><br><span class="line-number">145</span><br><span class="line-number">146</span><br><span class="line-number">147</span><br><span class="line-number">148</span><br><span class="line-number">149</span><br><span class="line-number">150</span><br><span class="line-number">151</span><br><span class="line-number">152</span><br><span class="line-number">153</span><br><span class="line-number">154</span><br><span class="line-number">155</span><br><span class="line-number">156</span><br><span class="line-number">157</span><br><span class="line-number">158</span><br><span class="line-number">159</span><br><span class="line-number">160</span><br><span class="line-number">161</span><br><span class="line-number">162</span><br><span class="line-number">163</span><br><span class="line-number">164</span><br><span class="line-number">165</span><br><span class="line-number">166</span><br><span class="line-number">167</span><br><span class="line-number">168</span><br><span class="line-number">169</span><br></div></div><h2 id="calc-坑点"><a href="#calc-坑点" class="header-anchor">#</a> calc 坑点</h2> <div class="language-css line-numbers-mode"><pre class="language-css"><code>  <span class="token property">bottom</span><span class="token punctuation">:</span> <span class="token function">calc</span><span class="token punctuation">(</span><span class="token function">var</span><span class="token punctuation">(</span>--x<span class="token punctuation">)</span> + 0px<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  // calc 中计算为 0px 时是不会生效的.
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h2 id="fixed-定位失效"><a href="#fixed-定位失效" class="header-anchor">#</a> fixed 定位失效</h2> <blockquote><p>当元素祖先的 transform 属性非 none 时，容器由视口改为该祖先。</p></blockquote> <p>即，指定了 <code>position:fixed</code> 的元素，如果其祖先元素存在非 none 的 transform 值 ，那么该元素将相对于设定了 <code>transform</code> 的祖先元素进行定位。</p> <p>处理方式：</p> <div class="language-css line-numbers-mode"><pre class="language-css"><code><span class="token property">transform</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h2 id="_1px-和-android文字垂直居中"><a href="#_1px-和-android文字垂直居中" class="header-anchor">#</a> 1px 和 android文字垂直居中</h2> <blockquote><p><a href="https://www.zhihu.com/question/39516424/answer/274374076" target="_blank" rel="noopener noreferrer">android文字无法垂直居中解析<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>根据实际情况修改，没有绝对的银弹</p></blockquote> <div class="language-less line-numbers-mode"><pre class="language-less"><code><span class="token comment">/* 1px 问题解决 */</span>
+
+<span class="token comment">/* 盒子边框 */</span>
+<span class="token selector">.border-1px(<span class="token variable">@color</span>: #fefefe, <span class="token variable">@radius</span>: 0px)</span> <span class="token punctuation">{</span>
+  <span class="token property">border</span>       <span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+  <span class="token property">position</span>     <span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+  <span class="token property">border-radius</span><span class="token punctuation">:</span> <span class="token variable">@radius</span><span class="token punctuation">;</span>
+
+  <span class="token selector">&amp;::after</span> <span class="token punctuation">{</span>
+    <span class="token property">content</span>         <span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">;</span>
+    <span class="token property">position</span>        <span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+    <span class="token property">top</span>             <span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">left</span>            <span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">border</span>          <span class="token punctuation">:</span> 1px solid <span class="token variable">@color</span><span class="token punctuation">;</span>
+    <span class="token property">border-radius</span>   <span class="token punctuation">:</span> <span class="token function">calc</span><span class="token punctuation">(</span><span class="token variable">@radius</span> <span class="token operator">*</span> 2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token property">box-sizing</span>      <span class="token punctuation">:</span> border<span class="token operator">-</span>box<span class="token punctuation">;</span>
+    <span class="token property">width</span>           <span class="token punctuation">:</span> 200%<span class="token punctuation">;</span>
+    <span class="token property">height</span>          <span class="token punctuation">:</span> 200%<span class="token punctuation">;</span>
+    <span class="token property">transform</span>       <span class="token punctuation">:</span> <span class="token function">scale</span><span class="token punctuation">(</span>0.5<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token property">transform-origin</span><span class="token punctuation">:</span> left top<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* 上边框, 同理可得下 左  右*/</span>
+<span class="token selector">.top-1px(<span class="token variable">@color</span>: #edeef2)</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+  <span class="token property">border</span>  <span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+
+  <span class="token selector">&amp;::before</span> <span class="token punctuation">{</span>
+    <span class="token property">content</span>         <span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">;</span>
+    <span class="token property">display</span>         <span class="token punctuation">:</span> block<span class="token punctuation">;</span>
+    <span class="token property">width</span>           <span class="token punctuation">:</span> 200%<span class="token punctuation">;</span>
+    <span class="token property">height</span>          <span class="token punctuation">:</span> 2px<span class="token punctuation">;</span>
+    <span class="token property">position</span>        <span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+    <span class="token property">top</span>             <span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">left</span>            <span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">right</span>           <span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> <span class="token variable">@color</span><span class="token punctuation">;</span>
+    <span class="token property">transform-origin</span><span class="token punctuation">:</span> left top<span class="token punctuation">;</span>
+    <span class="token property">transform</span>       <span class="token punctuation">:</span> <span class="token function">scale</span><span class="token punctuation">(</span>0.5<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* android 文字无法垂直水平居中
+	1. 将width,height,font-size 等属性，放大1倍，再缩小.5，此时容器被撑开，通过margin负距离定位回原来位置
+*/</span>
+<span class="token selector">.text</span> <span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span>200%<span class="token punctuation">;</span>
+  <span class="token property">height</span><span class="token punctuation">:</span>200%<span class="token punctuation">;</span>
+  <span class="token property">font-size</span><span class="token punctuation">:</span> <span class="token function">calc</span><span class="token punctuation">(</span>16px <span class="token operator">*</span> 2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">tranform</span><span class="token punctuation">:</span> <span class="token function">scale</span><span class="token punctuation">(</span>.5<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br></div></div><h2 id="rem布局-px布局-我到底要选谁"><a href="#rem布局-px布局-我到底要选谁" class="header-anchor">#</a> rem布局，px布局，我到底要选谁？</h2> <blockquote><p><a href="https://www.zhihu.com/question/313971223/answer/611789506" target="_blank" rel="noopener noreferrer">前置资料<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></blockquote> <p>rem 本质上就是个等比缩放</p> <p>是否认同： 在更大的屏幕上应该看到更多的信息？？？</p> <p>上对比：</p> <p><strong>左侧 px布局，右侧rem布局；肉眼可见的，在相同大小的屏幕上，px布局能展示更多的信息，rem布局等比缩放，信息量较少</strong></p> <p><img src="https://raw.githubusercontent.com/Nick-QI/pics/master/1597832399547-1597832399543.png" alt="rem和px对比.png"></p> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>个人觉得，在当前手机，pad 普及度这么高的情况下，应该用px布局，vw，vh，rem等为辅，来处理不同分辨率区段的展示。</p> <p>当然，如果业务要求只在移动端且不做任何未来的考虑的话，rem直接上就行了。</p></div> <h2 id="滚动属性-禁止滚动穿透"><a href="#滚动属性-禁止滚动穿透" class="header-anchor">#</a> 滚动属性，禁止滚动穿透</h2> <p><strong>overscroll-behavior：</strong></p> <p>​	<strong>contain</strong>: 设置这个值后，默认的滚动边界行为不变（“触底”效果或者刷新），但是临近的滚动区域不会被滚动链影响到，比如对话框后方的页面不会滚动。</p> <ul><li><p><strong>autto</strong>: 默认效果</p></li> <li><p><strong>none</strong>: 临近滚动区域不受到滚动链影响，而且默认的滚动到边界的表现也被阻止。</p></li></ul> <hr> <p><strong>scroll-behavior:</strong></p> <ul><li><p><strong>auto</strong>: 立即滚动</p></li> <li><p><strong>smooth</strong>: 缓动动画；滚动框通过一个用户代理预定义的时长、使用预定义的时间函数，来实现平稳的滚动，用户代理应遵循其平台的约定，如果有的话。</p></li></ul> <hr> <p><strong>-webkit-overflow-scrolling：</strong></p> <ul><li><p><strong>auto</strong>: 使用普通滚动, 当手指从触摸屏上移开，滚动会立即停止。</p></li> <li><p><strong>touch</strong>: 使用具有回弹效果的滚动, 当手指从触摸屏上移开，内容会继续保持一段时间的滚动效果。继续滚动的速度和持续的时间和滚动手势的强烈程度成正比。同时也会创建一个新的堆栈上下文。</p> <div class="custom-block danger"><p class="custom-block-title">WARNING</p> <p><strong>使用 touch 可能会引发未知的 bug, 建议定位到这个问题的时候,监听 touch 事件, 在 touchend 的时候释放这个属性</strong></p></div></li></ul> <h2 id="全局变量编写"><a href="#全局变量编写" class="header-anchor">#</a> 全局变量编写</h2> <div class="language-css line-numbers-mode"><pre class="language-css"><code><span class="token selector">// create
+:root</span> <span class="token punctuation">{</span>
+  <span class="token property">--statusBarHeight</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+  <span class="token property">--footerBarHeight</span><span class="token punctuation">:</span> 44px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">// use
+body</span> <span class="token punctuation">{</span>
+	<span class="token property">padding-top</span><span class="token punctuation">:</span> <span class="token function">var</span><span class="token punctuation">(</span>--statusBarHeight<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">// js 动态生成</span>
+<span class="token keyword">const</span> <span class="token punctuation">{</span>statusBarHeight<span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">getSystemInfo</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">let</span> globalRootStyle <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">'style'</span><span class="token punctuation">)</span>
+globalRootStyle<span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+	:root {
+		--statusBarHeight: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>statusBarHeight <span class="token operator">||</span> <span class="token number">0</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">px;
+	} 
+</span><span class="token template-punctuation string">`</span></span>
+document<span class="token punctuation">.</span>documentElement<span class="token punctuation">.</span>firstElementChild<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>globalRootStyle<span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><h2 id="css-id-类名等-的优先级"><a href="#css-id-类名等-的优先级" class="header-anchor">#</a> css(id,类名等)的优先级</h2> <p>按权重:<br>
+!import &gt; 内联样式(1000) &gt; id(100) &gt; 类,伪类,属性选择器(10) &gt; 标签,伪元素(10) &gt; 通配符(0)</p> <p>括号内携带的是 他的权重值,但是不代表, 权重叠加后大于前一级的情况,即</p> <div class="language-css line-numbers-mode"><pre class="language-css"><code><span class="token comment">/* 实际上还是id 优先级高 */</span>
+<span class="token selector">.a.d.c.f.g.h.j.k.l.q.w.e.r.y.u.i</span> <span class="token punctuation">{</span>  // 20个类名<span class="token punctuation">,</span>权重 20*10 = 200 
+  <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">#id</span><span class="token punctuation">{</span>   // 权重 100<span class="token punctuation">;</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> blue<span class="token punctuation">;</span>  
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">3/22/2021, 7:02:37 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/base/html.html" class="prev">
+        HTML
+      </a></span> <span class="next"><a href="/base/ts.html">
+        TypeScript
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.c3c63d5e.js" defer></script><script src="/assets/js/2.89d17b24.js" defer></script><script src="/assets/js/10.9ad853e0.js" defer></script>
+  </body>
+</html>
